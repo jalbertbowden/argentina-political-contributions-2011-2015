@@ -1,0 +1,191 @@
+/* BASIC STRUCTURE */
+.block{display:block}
+.graphic-container-blog {
+   /** width: 650px;  **/
+    width:1000px;
+    padding-top: 12px;
+    background-color: #EFECEA;
+}
+
+.graphic-container-feature {
+    width: 900px;
+    padding-top: 12px;
+    background-color: #EFECEA;
+}
+
+.header-container {
+    padding-top: 12px;
+    padding-right: 22px;
+    padding-bottom: 8px;
+    padding-left: 22px;
+    background-color: #F5F3F2;
+    overflow:auto;
+}
+
+.header-title {
+    width: 70%;
+    margin: 0;
+    float:left;
+    text-align: left,
+}
+
+.header-logo {
+    width: 100px;
+    height: 37.5px;
+    background-image: url('assets/img/SunlightFoundation_logo.png');
+    background-size: 100% 100%;
+    float:right;
+}
+
+/*
+.chart-area {
+    padding-top: 22px;
+    padding-right: 22px;
+    padding-bottom: 22px;
+    padding-left: 22px;
+} 
+*/
+
+.divider {
+    width: 100%;
+    height: 1px;
+    margin: 0;
+}
+
+.divider.solid {
+    background-color: #FFFFFF;
+}
+
+.divider.dashed {
+    border-top: 1px dashed #C0C0BB;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.footer-container {
+    height: 22px;
+    padding-top: 8px;
+    padding-left: 22px;
+    padding-right: 22px;
+    background-color: #E5E2E0;
+}
+
+/* TEXT */
+
+.test-text {
+    fill: #000;
+    stroke: #000;
+
+}
+
+.main-title {
+    font-family : "Franklin Gothic Book", "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", "Arial Narrow", sans-serif;
+    font-size : 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: #635F5D;
+}
+
+.main-title em {
+    font-family : "Franklin Gothic Demi Cond", "Franklin Gothic Medium Cond", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    font-style: normal;
+}
+
+.explanatory { 
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size : 12px;
+    font-weight: normal;
+    font-style: italic;
+    color: #8E8883;
+}
+
+.axis text {
+    font-size : 12px;
+    font-weight: normal;
+    font-style: normal;
+    fill: #635F5D;
+    stroke: none;
+    font-family : "Franklin Gothic Book", "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+}
+
+.axis .tick .unit {
+    font-family : "Franklin Gothic Demi Cond", "Franklin Gothic Medium Cond", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+}
+
+.citation {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size : 10px;
+    font-weight: normal;
+    font-style: italic;
+    color: #8E8883;
+}
+
+.citation em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.citation a {
+  padding-left: 20px;
+}
+
+/* PLOT ELEMENTS */
+
+.axis path{
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width: 1px;
+}
+.axis line {
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width:1px;
+}
+.y.axis .tick{margin-left:-50px}
+.y.axis text {
+    text-anchor: middle;
+}
+
+/* Button style */
+.btn-sunlight {
+  border: 3px solid #dad8d1;
+  border: 3px solid rgba(218, 216, 209, 0.8);
+  background: #cb610b;
+  background-image: -webkit-linear-gradient(#cb610b 0%, #bc5b0a 55%, #cb610b 55%);
+  background-image: -moz-linear-gradient(#cb610b 0%, #bc5b0a 55%, #cb610b 55%);
+  background-image: -ms-linear-gradient(#cb610b 0%, #bc5b0a 55%, #cb610b 55%);
+  background-image: -o-linear-gradient(#cb610b 0%, #bc5b0a 55%, #cb610b 55%);
+  background-image: linear-gradient(#cb610b 0%, #bc5b0a 55%, #cb610b 55%);
+  color: #eee;
+  font-family: "rooney-web", "Georgia", "Times New Roman", "Times", serif;
+  font-size: 120%;
+  font-weight: 400;
+  padding: 0.45em 1.8em;
+  -webkit-font-smoothing: antialiased;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  text-shadow: 0 0 0;
+}
+
+.btn-sunlight:hover, .btn-sunlight:active, .btn-sunlight:focus {
+  background: #b85301;
+  background-image: -webkit-linear-gradient(#b85301 0%, #a54e01 55%, #b85301 55%);
+  background-image: -moz-linear-gradient(#b85301 0%, #a54e01 55%, #b85301 55%);
+  background-image: -ms-linear-gradient(#b85301 0%, #a54e01 55%, #b85301 55%);
+  background-image: -o-linear-gradient(#b85301 0%, #a54e01 55%, #b85301 55%);
+  background-image: linear-gradient(#b85301 0%, #a54e01 55%, #b85301 55%);
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  outline: none;
+}
+
+
